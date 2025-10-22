@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 375px;
+    height: 960px;
+    background-color: var(--slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.qr-code-component {
+    width: 320px;
+    height: 499px;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    background-color: var(--white);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.img-hero img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.div-description {
+    width: 288px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding-inline: 16px;
+}
+
+.div-description :first-child {
+    color: var(--slate-900);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.div-description p:nth-of-type(2) {
+    color: var(--slate-900);
+    text-align: center;
+}
