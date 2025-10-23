@@ -61,7 +61,7 @@ body {
 
 .div-description :first-child {
     color: var(--slate-900);
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: 1px;
     font-weight: 900;
 }
